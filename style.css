@@ -1,0 +1,101 @@
+.orb{
+    
+    display: inline-block;
+}
+body{
+    background-color: black;
+    background-image: url("download.gif");
+    background-position: center;
+    background-position-y: 50px;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+.photo {
+    display: flex;
+    margin-left: 10px;
+}
+
+.head {
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+
+.profile{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    margin-top: 0.05px;
+    margin-left: 1600px;
+    height: 0.005px;
+}
+
+.profile-img{
+    width: 40px ;
+    height: 40px;
+    border-radius: 50%;
+    
+}
+.container-1 {
+    display: block;
+    position: fixed;
+    bottom : 50px;
+    width: 100%;
+}
+.ask-box {
+    height: 50px;
+    width: 600px;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    align-items: center;
+    padding: 0 10px;
+    border-radius: 25px;
+    margin: 20px auto;
+    border: 2px solid rgb(0, 255, 13);
+    background-position-x: center;
+}
+#user-input {
+    border: none;
+    outline: none;
+    font-size: 14px;
+    background-color: transparent;
+}
+.send {
+    border:none;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+.mic {
+    border:none;
+    background-color: transparent;
+}
+.mic img, .send img {
+    width: 20px;
+    height: 20px;
+}
+.user-input:focus {
+    border: none;
+    outline: none;
+}
+.ressponse-area{
+    display: block;
+    position: fixed;
+    bottom : 180px;
+    width: 100%;
+    /* margin-left: 740px; */
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    align-items: center;
+    align-content:center;
+    text-align:center;
+    
+}
+.chat-btn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
